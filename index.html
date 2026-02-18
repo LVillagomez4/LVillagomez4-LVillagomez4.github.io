@@ -1,30 +1,151 @@
----
-layout: default
-title: Home
----
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Luis Villagomez</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luis Villagomez | Portfolio</title>
+    <style>
+        /* Body and global styles */
+        body {
+            background-color: #b8d8b8; /* soft matcha green */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #1c1c1c;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            padding: 80px 20px 40px 20px;
+            background: linear-gradient(to right, #d0e8d0, #a0cfa0);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            font-size: 4rem;
+            margin: 0;
+            color: #1c3d1c;
+        }
+
+        header p {
+            font-size: 1.5rem;
+            margin-top: 10px;
+            color: #2b4f2b;
+        }
+
+        /* Main container */
+        .container {
+            width: 80%;
+            max-width: 1000px;
+            margin: 50px auto;
+            text-align: center;
+        }
+
+        /* Links section */
+        .links {
+            margin: 40px 0;
+        }
+
+        .links a {
+            display: inline-block;
+            margin: 15px 10px;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            background-color: #3a5f3a; /* dark matcha */
+            color: #fff;
+            text-decoration: none;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+            transition: all 0.3s ease;
+        }
+
+        .links a:hover {
+            background-color: #618361;
+            transform: translateY(-3px) scale(1.05);
+            box-shadow: 0 6px 10px rgba(0,0,0,0.3);
+        }
+
+        /* About Me section */
+        .about-me {
+            background-color: #eaf6ea;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin-bottom: 50px;
+        }
+
+        .about-me h2 {
+            font-size: 2rem;
+            color: #2b4f2b;
+            margin-bottom: 15px;
+        }
+
+        .about-me p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            color: #1c2f1c;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            background-color: #3a5f3a;
+            color: #fff;
+            font-size: 1rem;
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 3rem;
+            }
+            header p {
+                font-size: 1.2rem;
+            }
+            .links a {
+                padding: 12px 20px;
+                font-size: 1rem;
+            }
+            .about-me h2 {
+                font-size: 1.5rem;
+            }
+            .about-me p {
+                font-size: 1rem;
+            }
+        }
+    </style>
 </head>
 <body>
-  <h1>Hi, I’m Luis Villagomez!</h1>
-  <p>Welcome to my GitHub Pages site.</p>
 
-  <h2>About Me</h2>
-  <p>I’m a student learning web development and software engineering.</p>
+    <header>
+        <h1>Hi, I'm Luis Villagomez!</h1>
+        <p>Welcome to my personal portfolio</p>
+    </header>
 
-  <h2>My Projects</h2>
-  <ul>
-    <li><a href="https://github.com/LVillagomez4/cmpsc390-lab1.git">Project 1</a></li>
-    <li><a href="https://github.com/IsaAlatorre/MicroTrack.git">Project 2</a></li>
-  </ul>
+    <div class="container">
+        <div class="links">
+            <a href="https://github.com/LVillagomez4" target="_blank">My GitHub Repositories</a>
+            <a href="mailto:villagomezla32@gmail.com">Contact Me</a>
+            <a href="LUIS_VILLAGOMEZ_UPDATES_RESUME2026.pdf" target="_blank">View My Resume</a>
+        </div>
 
-  <h2>Contact</h2>
-  <p>Email: villagomezla32@gmail.com</p>
+        <div class="about-me">
+            <h2>About Me</h2>
+            <p>
+                I’m a student passionate about web development and software engineering.  
+                I love problem-solving, learning new technologies, and building projects that make a real impact.  
+                I’m looking forward to gaining hands-on experience and creating meaningful solutions in the tech world.
+            </p>
+        </div>
+    </div>
 
-  <h2>Resume</h2>
-  <p><a href="LUIS_VILLAGOMEZ_UPDATES_RESUME2026.pdf">Download my resume</a></p>
+    <footer>
+        © 2026 Luis Villagomez
+    </footer>
+
 </body>
 </html>
